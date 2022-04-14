@@ -40,21 +40,7 @@ recording_saved = recording_f.save(folder=directory_output+"/preprocessed", prog
                                      n_jobs=4, total_memory="200M")
 #%% Generate tetrode
 recording_saved = si.load_extractor(directory_output+"/preprocessed")
-from probeinterface import generate_tetrode, ProbeGroup
 
-probegroup = ProbeGroup()
-for i in range(1):
-    tetrode = generate_tetrode()
-    tetrode.set_device_channel_indices(np.arange(4) + i * 4)
-    probegroup.add_probe(tetrode)
-    
-recording_4_tetrodes = recording_saved.set_probegroup(probegroup, group_mode='by_probe')
-
-# get group
-print(recording_4_tetrodes.get_channel_groups())
-# similar to this
-print(recording_4_tetrodes.get_property('group'))
-#%%
 #%% tridesclous 
 
 print(ss.installed_sorters())
