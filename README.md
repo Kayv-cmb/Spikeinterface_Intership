@@ -4,7 +4,7 @@
 Use the environment file : "tutorial.yml" to create a new envionment
 
 ```
-conda create --name env
+conda create --name environmnent
 ```
 Activate you envinronment
 If you want to use spyder
