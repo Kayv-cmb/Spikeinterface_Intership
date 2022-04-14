@@ -46,6 +46,23 @@ Downloads the file named python and add it to the path
 
 Click on the python icon in spyder to open pythonpathmanager click on add path and go to the downloads python file to add it
 ![Screenshot](screenshot.png)
+
+## Usage
+
+### Spikeinterface
+
+Activate the spikeinterface environment, you can run Readmdaspike.py (use f9 instead of run). For that you will need a raw.mda file (M*N array of channel by timestamps), a geom.csv file and params.json file, you can find example of geom and params in the master
+It will import the raw in a recording apply a bandpass filter, do the spike sorting with mountainsort pipeline then export to phy the result.
+You can use the phy GUI to visualise the result by typing in the kernel
+```
+!phy template-gui phy_MS/params.py
+```
+you will need to be in the directory where the file is created
+
+### Mountainsort
+
+You can run the MS4.py file 
+
 ## Potential Errors during installation/running
 
 If you run into the error 
