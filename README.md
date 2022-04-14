@@ -61,6 +61,7 @@ you will need to be in the directory where the file is created
 
 ### Mountainsort
 
+Activate the environment that has mountainsort
 You can run the MS4.py file   
 To visualise the result you can use the GUI from mountainlab   
 You can install qt-mountainview with
