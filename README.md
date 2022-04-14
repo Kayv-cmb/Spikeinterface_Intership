@@ -38,6 +38,14 @@ The install mountainsort package
 ```
 conda install -c flatiron -c conda-forge mountainlab mountainlab_pytools ml_ephys ml_ms3 ml_ms4alg ml_pyms
 ```
+Install spikeforest widgets
+```
+pip install spikeforestwidgets
+```
+Downloads the file named python and add it to the path
+
+Click on the python icon in spyder to open pythonpathmanager click on add path and go to the downloads python file to add it
+![Screenshot](screenshot.png)
 ## Potential Errors during installation/running
 
 If you run into the error 
