@@ -1,12 +1,12 @@
 # Spikeinterface
-## Installation
+## Installation of Spikeinterface
 
-Use the environment file : "tutorial.yml" to create a new envionment
+
 
 ```
 conda create --name environmnent
 ```
-Activate you envinronment
+Activate you envinronment\n
 If you want to use spyder
 
 ```
@@ -27,6 +27,9 @@ For Mountainsor4 in spikeinterface
 ```
 pip install mountainsort4
 ```
+## Installation of Mountainsort
+
+
 
 ## Potential Errors during installation/running
 
