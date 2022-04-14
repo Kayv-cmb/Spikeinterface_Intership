@@ -6,7 +6,7 @@
 ```
 conda create --name environmnent
 ```
-Activate you envinronment\n
+Activate you envinronment  
 If you want to use spyder
 
 ```
