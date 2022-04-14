@@ -61,8 +61,16 @@ you will need to be in the directory where the file is created
 
 ### Mountainsort
 
-You can run the MS4.py file 
-
+You can run the MS4.py file   
+To visualise the result you can use the GUI from mountainlab   
+You can install qt-mountainview with
+```
+conda install -c flatiron -c conda-forge qt-mountainview
+```
+The command in kernel is :
+```
+!qt-mountainview --raw=./raw.mda --geom=./geom.csv --firings=./output2/ms4/firings.mda --samplerate=30000
+```
 ## Potential Errors during installation/running
 
 If you run into the error 
